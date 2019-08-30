@@ -1,0 +1,80 @@
+#N canvas -11 -11 1920 1016 10;
+#X obj 12 262 readsf~;
+#X obj 11 299 dac~;
+#X obj 12 396 readsf~;
+#X obj 11 433 dac~;
+#X obj 32 523 readsf~;
+#X obj 31 560 dac~;
+#X obj 564 556 readsf~;
+#X obj 563 593 dac~;
+#X obj 1037 436 readsf~;
+#X obj 1036 473 dac~;
+#X obj 1284 187 readsf~;
+#X obj 1283 224 dac~;
+#X obj 472 398 readsf~;
+#X obj 471 435 dac~;
+#X obj 65 639 readsf~;
+#X obj 64 676 dac~;
+#X obj 52 70 moses 2;
+#X obj 45 18 r som;
+#X obj 357 87 moses 3;
+#X obj 556 93 moses 4;
+#X obj 689 100 moses 5;
+#X obj 846 133 moses 6;
+#X obj 1024 202 moses 7;
+#X obj 1158 256 moses 8;
+#X msg 13 216 open D:/Documents/UnityProjects/boucingballs/Assets/StreamingAssets/Audio/Perc/Cajon_peruano.wav
+\, 1;
+#X msg 12 361 open D:/Documents/UnityProjects/boucingballs/Assets/StreamingAssets/Audio/Perc/Batajones.wav
+\, 1;
+#X msg 31 488 open D:/Documents/UnityProjects/boucingballs/Assets/StreamingAssets/Audio/Perc/Caja_bongo.wav
+\, 1;
+#X msg 472 363 open D:/Documents/UnityProjects/boucingballs/Assets/StreamingAssets/Audio/Perc/Quijada_de_burro.wav
+\, 1;
+#X msg 564 521 open D:/Documents/UnityProjects/boucingballs/Assets/StreamingAssets/Audio/Perc/Cortina_chaccha.wav
+\, 1;
+#X msg 1037 401 open D:/Documents/UnityProjects/boucingballs/Assets/StreamingAssets/Audio/Perc/Djembe_cajon.wav
+\, 1;
+#X msg 1285 151 open D:/Documents/UnityProjects/boucingballs/Assets/StreamingAssets/Audio/Perc/Octa_cajon.wav
+\, 1;
+#X msg 65 603 open D:/Documents/UnityProjects/boucingballs/Assets/StreamingAssets/Audio/Perc/Cajitas.wav
+\, 1;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
+#X connect 2 0 3 0;
+#X connect 2 0 3 1;
+#X connect 4 0 5 0;
+#X connect 4 0 5 1;
+#X connect 6 0 7 0;
+#X connect 6 0 7 1;
+#X connect 8 0 9 0;
+#X connect 8 0 9 1;
+#X connect 10 0 11 0;
+#X connect 10 0 11 1;
+#X connect 12 0 13 0;
+#X connect 12 0 13 1;
+#X connect 14 0 15 0;
+#X connect 14 0 15 1;
+#X connect 16 0 24 0;
+#X connect 16 1 18 0;
+#X connect 17 0 16 0;
+#X connect 18 0 25 0;
+#X connect 18 1 19 0;
+#X connect 19 0 26 0;
+#X connect 19 1 20 0;
+#X connect 20 0 31 0;
+#X connect 20 1 21 0;
+#X connect 21 0 27 0;
+#X connect 21 1 22 0;
+#X connect 22 0 28 0;
+#X connect 22 1 23 0;
+#X connect 23 0 29 0;
+#X connect 23 1 30 0;
+#X connect 24 0 0 0;
+#X connect 25 0 2 0;
+#X connect 26 0 4 0;
+#X connect 27 0 12 0;
+#X connect 28 0 6 0;
+#X connect 29 0 8 0;
+#X connect 30 0 10 0;
+#X connect 31 0 14 0;
